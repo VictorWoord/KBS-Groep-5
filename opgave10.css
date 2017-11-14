@@ -1,0 +1,34 @@
+/* Opgave 10*/
+/*[Melvin Winia, S1119948]*/
+/* Begin uitwerking */
+body {
+ font-family: arial;   
+}
+
+#titel {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    font-weight: bold;
+}
+
+ul {
+    background-color: lightgray;
+    width: 500px;
+}
+
+table {
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+}
+
+.rood {
+    background-color: red;
+}
+/* Einde uitwerking */
