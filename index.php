@@ -6,6 +6,8 @@ $lijstje[0] = 2;
 $lijstje[1] = 3;
 $lijstje[2] = 1;
 $lijstje[3] = 6;
+$lijstje[4] = 7;
+$lijstje[5] = 8;
 
 function gemiddelde($array) {
     $som = 0;
@@ -13,6 +15,7 @@ function gemiddelde($array) {
     foreach ($array as $waarde) {
     $som = $som + $waarde;
     $teller++;
+	
     
     }
     $gemiddelde = $som / $teller;
